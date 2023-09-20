@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обчислення урожаю пшениці</title>
+  </head>
+  <body>
+    <h1>Обчислення зібраного урожаю пшениці</h1>
+
+    <label for="wheat1">Врожайність пшениці на першому полі (т/га):</label>
+    <input type="number" id="wheat1" step="any" />
+
+    <label for="area1">Площа першого поля (га):</label>
+    <input type="number" id="area1" step="any" />
+
+    <label for="wheat2">Врожайність пшениці на другому полі (т/га):</label>
+    <input type="number" id="wheat2" step="any" />
+
+    <label for="area2">Площа другого поля (га):</label>
+    <input type="number" id="area2" step="any" />
+
+    <label for="wheat3">Врожайність пшениці на третьому полі (т/га):</label>
+    <input type="number" id="wheat3" step="any" />
+
+    <label for="area3">Площа третього поля (га):</label>
+    <input type="number" id="area3" step="any" />
+
+    <button onclick="calculateHarvest()">Обчислити</button>
+
+    <h2>Результати:</h2>
+    <p>Зібраний урожай з першого поля: <span id="result1"></span> т</p>
+    <p>Зібраний урожай з другого поля: <span id="result2"></span> т</p>
+    <p>Зібраний урожай з третього поля: <span id="result3"></span> т</p>
+    <p>Зібраний урожай з усіх полів разом: <span id="totalResult"></span> т</p>
+    <script src="../js/script_11.js"></script>
+  </body>
+</html>

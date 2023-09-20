@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обчислення гіпотенузи та площі прямокутного трикутника</title>
+  </head>
+  <body>
+    <h1>Обчислення довжини гіпотенузи та площі прямокутного трикутника</h1>
+
+    <label for="sideA">Довжина першого катета (a):</label>
+    <input type="number" id="sideA" step="any" />
+
+    <label for="sideB">Довжина другого катета (b):</label>
+    <input type="number" id="sideB" step="any" />
+
+    <button onclick="calculateTriangleProperties()">Обчислити</button>
+
+    <h2>Результати:</h2>
+    <p>Довжина гіпотенузи: <span id="hypotenuseResult"></span></p>
+    <p>Площа прямокутного трикутника: <span id="areaResult"></span></p>
+    <script src="../js/script_13.js"></script>
+  </body>
+</html>

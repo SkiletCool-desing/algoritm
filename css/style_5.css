@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.product {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 80px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.cost {
+    font-weight: bold;
+}
+
+.total {
+    margin-top: 20px;
+}
